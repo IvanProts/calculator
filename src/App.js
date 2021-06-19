@@ -7,35 +7,54 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      distance: 0,
-      miliradians: 0
+      distance: '',
+      miliradians: ''
     }
-  this.inputChange = this.inputChange.bind(this)
   }
   calculateDistance = () => {
     const oldDistance = this.state.distance;
-
     const mil = oldDistance / 2;
-
     this.setState({
-      miliradians: this.mil
+      miliradians: mil
     })
-    console.log('1');
   }
 
   inputChange = (event) => {
     this.setState({distance: event.target.value})
-    console.log(this.state);
+  }
+
+  resetValue = (event) => {
+    this.setState({
+      distance: '',
+      miliradians: ''
+    })
   }
 
   render(){
+    const toFar = ['distance'];
+    if (this.state.distance > 1600) {
+      toFar.push('showDisplay')
+    } else {
+      toFar.splice([1])
+    }
+
+    const toClose = ['distance'];
+    if (this.state.distance < 100 && this.state.distance !== '') {
+      toClose.push('showDisplay')
+    } else {
+      toClose.splice([1])
+    }
+
     return(
     <div className='main-part'>
-      <h1>Arthillery calculator for Hell Let Loose</h1>
-      <input type='number' placeholder='Distance in mil.' value={this.state.distance} onChange={this.inputChange}></input>
+      <h1>Arthillerry calculator for Hell Let Loose</h1>
+      <h2 className={toFar.join(' ')}>Too far!</h2>
+      <h2 className={toClose.join(' ')}>Too close!</h2>
+      <input type='text' placeholder='Distance in mil.' value={this.state.miliradians} readOnly></input>
       <h2>Enter distanse in m.</h2>
-      <input type='number' placeholder='Distance in meters'></input>
+      <input type='text' placeholder='Distance in meters' value={this.state.distance} onChange={this.inputChange}></input>
       <button type='submit' onClick={this.calculateDistance}>=</button>
+      <button type='submit' onClick={this.resetValue}>Reset</button>
     </div>
     )
   }
