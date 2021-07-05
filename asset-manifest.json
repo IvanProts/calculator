@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/calculator/static/css/main.5e211d32.chunk.css",
-    "main.js": "/calculator/static/js/main.10ae52e8.chunk.js",
-    "main.js.map": "/calculator/static/js/main.10ae52e8.chunk.js.map",
-    "runtime-main.js": "/calculator/static/js/runtime-main.27fc035d.js",
-    "runtime-main.js.map": "/calculator/static/js/runtime-main.27fc035d.js.map",
-    "static/js/2.b8aa5cb0.chunk.js": "/calculator/static/js/2.b8aa5cb0.chunk.js",
-    "static/js/2.b8aa5cb0.chunk.js.map": "/calculator/static/js/2.b8aa5cb0.chunk.js.map",
-    "static/js/3.6c611ea4.chunk.js": "/calculator/static/js/3.6c611ea4.chunk.js",
-    "static/js/3.6c611ea4.chunk.js.map": "/calculator/static/js/3.6c611ea4.chunk.js.map",
-    "index.html": "/calculator/index.html",
-    "static/css/main.5e211d32.chunk.css.map": "/calculator/static/css/main.5e211d32.chunk.css.map",
-    "static/js/2.b8aa5cb0.chunk.js.LICENSE.txt": "/calculator/static/js/2.b8aa5cb0.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/calculator/static/media/HLL.d9633c94.jpg"
+    "main.css": "/IvanProts/calculator/static/css/main.edb00d72.chunk.css",
+    "main.js": "/IvanProts/calculator/static/js/main.10ae52e8.chunk.js",
+    "main.js.map": "/IvanProts/calculator/static/js/main.10ae52e8.chunk.js.map",
+    "runtime-main.js": "/IvanProts/calculator/static/js/runtime-main.a2d4f15c.js",
+    "runtime-main.js.map": "/IvanProts/calculator/static/js/runtime-main.a2d4f15c.js.map",
+    "static/js/2.b8aa5cb0.chunk.js": "/IvanProts/calculator/static/js/2.b8aa5cb0.chunk.js",
+    "static/js/2.b8aa5cb0.chunk.js.map": "/IvanProts/calculator/static/js/2.b8aa5cb0.chunk.js.map",
+    "static/js/3.6c611ea4.chunk.js": "/IvanProts/calculator/static/js/3.6c611ea4.chunk.js",
+    "static/js/3.6c611ea4.chunk.js.map": "/IvanProts/calculator/static/js/3.6c611ea4.chunk.js.map",
+    "index.html": "/IvanProts/calculator/index.html",
+    "static/css/main.edb00d72.chunk.css.map": "/IvanProts/calculator/static/css/main.edb00d72.chunk.css.map",
+    "static/js/2.b8aa5cb0.chunk.js.LICENSE.txt": "/IvanProts/calculator/static/js/2.b8aa5cb0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/IvanProts/calculator/static/media/HLL.d9633c94.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.27fc035d.js",
+    "static/js/runtime-main.a2d4f15c.js",
     "static/js/2.b8aa5cb0.chunk.js",
-    "static/css/main.5e211d32.chunk.css",
+    "static/css/main.edb00d72.chunk.css",
     "static/js/main.10ae52e8.chunk.js"
   ]
 }
