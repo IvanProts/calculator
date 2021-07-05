@@ -1,0 +1,40 @@
+.Calculator {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Calculator input {
+  outline: #8eb1b5;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(91, 107, 35, .8);
+}
+
+.Calculator input, .Calculator input::placeholder {
+  color:#b4b6a9;
+  font-size: 16px;
+}
+
+.Calculator input:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(91, 107, 35);
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover{
+  background-color: rgb(91, 107, 35, 0.7);
+}

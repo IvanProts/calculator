@@ -1,15 +1,26 @@
-.main-part{
+.mainPart{
   display: flex;
   flex-direction: column;
+  height: 100vh;
   align-items: center;
-  margin-top: 50%;
-  margin-bottom: 50%;
+  background-image: url('HLL.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.distance{
+.mainPart h1{
+  color: #b4b6a9;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.distance {
   display: none;
 }
-.showDisplay{
+
+.showDisplay {
   display: block;
-  color: red;
+  color: #ff2f39;
+  text-align: center;
 }
