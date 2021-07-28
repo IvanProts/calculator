@@ -1,0 +1,34 @@
+.mainPart{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  background-image: url('HLL.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainPart h1{
+  color: #cec3c3;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.distance {
+  display: none;
+}
+
+.showDisplay {
+  display: block;
+  color: #ff2f39;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mainPart h1 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+}
